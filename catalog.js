@@ -135,7 +135,7 @@ window.CANGYU_GAMES = {
       "number": "03",
       "category": "action",
       "categoryName": "侧面探索战斗",
-      "latest": "0.3",
+      "latest": "0.3.1",
       "date": "2026-10-18",
       "cover": "assets/ghost-signal.svg",
       "accent": "lavender",
@@ -153,6 +153,17 @@ window.CANGYU_GAMES = {
       "firstStep": "A / D 移动，空格跳跃，J 或鼠标左键攻击，K 技能；Q 留影、E 回放。开场可直接选关。",
       "releases": [
         {
+          "version": "0.3.1",
+          "file": "downloads/ghost-signal/ghost-signal-v0.3.1.zip",
+          "notes": [
+            "修复中文输入法组合状态下 D 等游戏按键不响应的问题。",
+            "修复按钮持有焦点时忽略字母控制键的问题；原有存档继续兼容。"
+          ],
+          "bytes": 80728,
+          "size": "78.8 KB",
+          "sha256": "f70d6b15874147d1d558ab03dbbed47bb84dbb382fd4f739705480fe4796e3e0"
+        },
+        {
           "version": "0.3",
           "file": "downloads/ghost-signal/ghost-signal-v0.3.zip",
           "notes": [
@@ -166,16 +177,15 @@ window.CANGYU_GAMES = {
         }
       ],
       "latestRelease": {
-        "version": "0.3",
-        "file": "downloads/ghost-signal/ghost-signal-v0.3.zip",
+        "version": "0.3.1",
+        "file": "downloads/ghost-signal/ghost-signal-v0.3.1.zip",
         "notes": [
-          "12 关、四种场景与角色，加入战斗、技能、补给及出口守卫。",
-          "鬼魂可以重放普通攻击、吸引敌人和触发共鸣机关。",
-          "提供选关、当前关卡检查点、自动保存和存档导入导出。"
+          "修复中文输入法组合状态下 D 等游戏按键不响应的问题。",
+          "修复按钮持有焦点时忽略字母控制键的问题；原有存档继续兼容。"
         ],
-        "bytes": 80090,
-        "size": "78.2 KB",
-        "sha256": "f95285d1a456694414b6675e19b69d66cc1e75e3317375ec0af9338b60f81908"
+        "bytes": 80728,
+        "size": "78.8 KB",
+        "sha256": "f70d6b15874147d1d558ab03dbbed47bb84dbb382fd4f739705480fe4796e3e0"
       }
     }
   ]
