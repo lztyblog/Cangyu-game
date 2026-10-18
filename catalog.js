@@ -2,7 +2,7 @@ window.CANGYU_GAMES = {
   "site": {
     "name": "沧屿游戏屋",
     "english": "CANGYU PLAYROOM",
-    "updated": "2026-10-15",
+    "updated": "2026-10-18",
     "description": "一些小小的单机游戏，一点自由发挥的空间。下载即玩，也欢迎先在浏览器里试一试。"
   },
   "games": [
@@ -126,6 +126,56 @@ window.CANGYU_GAMES = {
         "bytes": 63966,
         "size": "62.5 KB",
         "sha256": "702d8ffd663117ed6803ef1af1991438c339fbdf5af43a862a309c60f3d4e852"
+      }
+    },
+    {
+      "id": "ghost-signal",
+      "name": "留在这里的我",
+      "english": "GHOST SIGNAL",
+      "number": "03",
+      "category": "action",
+      "categoryName": "侧面探索战斗",
+      "latest": "0.3",
+      "date": "2026-10-18",
+      "cover": "assets/ghost-signal.svg",
+      "accent": "lavender",
+      "tagline": "留下一个影子，带自己闯出去。",
+      "description": "穿过机甲、雾院、修仙和冰原四种场景，探索 12 个关卡。用不同角色战斗、找回物件；失败留下的鬼魂，可以回放行动与攻击，替你吸引守卫、打开新的路。",
+      "tags": [
+        "12 个关卡",
+        "4 种角色",
+        "鬼魂回放"
+      ],
+      "search": "横版 侧面 战斗 攻击 技能 幽灵 鬼魂 机器人 雪人 御剑 修仙 恐怖 冰原 留影 关卡 存档",
+      "play": "play/ghost-signal/index.html",
+      "feedback": "feedback/ghost-signal.txt",
+      "requirements": "电脑浏览器 · 键盘 / 鼠标",
+      "firstStep": "A / D 移动，空格跳跃，J 或鼠标左键攻击，K 技能；Q 留影、E 回放。开场可直接选关。",
+      "releases": [
+        {
+          "version": "0.3",
+          "file": "downloads/ghost-signal/ghost-signal-v0.3.zip",
+          "notes": [
+            "12 关、四种场景与角色，加入战斗、技能、补给及出口守卫。",
+            "鬼魂可以重放普通攻击、吸引敌人和触发共鸣机关。",
+            "提供选关、当前关卡检查点、自动保存和存档导入导出。"
+          ],
+          "bytes": 80090,
+          "size": "78.2 KB",
+          "sha256": "f95285d1a456694414b6675e19b69d66cc1e75e3317375ec0af9338b60f81908"
+        }
+      ],
+      "latestRelease": {
+        "version": "0.3",
+        "file": "downloads/ghost-signal/ghost-signal-v0.3.zip",
+        "notes": [
+          "12 关、四种场景与角色，加入战斗、技能、补给及出口守卫。",
+          "鬼魂可以重放普通攻击、吸引敌人和触发共鸣机关。",
+          "提供选关、当前关卡检查点、自动保存和存档导入导出。"
+        ],
+        "bytes": 80090,
+        "size": "78.2 KB",
+        "sha256": "f95285d1a456694414b6675e19b69d66cc1e75e3317375ec0af9338b60f81908"
       }
     }
   ]
