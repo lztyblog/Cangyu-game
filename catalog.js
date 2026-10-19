@@ -2,7 +2,7 @@ window.CANGYU_GAMES = {
   "site": {
     "name": "沧屿游戏屋",
     "english": "CANGYU PLAYROOM",
-    "updated": "2026-10-18",
+    "updated": "2026-10-19",
     "description": "一些小小的单机游戏，一点自由发挥的空间。下载即玩，也欢迎先在浏览器里试一试。"
   },
   "games": [
@@ -134,7 +134,7 @@ window.CANGYU_GAMES = {
       "english": "GHOST SIGNAL",
       "number": "03",
       "category": "action",
-      "categoryName": "侧面探索战斗",
+      "categoryName": "进攻与探索",
       "latest": "0.3.1",
       "date": "2026-10-18",
       "cover": "assets/ghost-signal.svg",
@@ -186,6 +186,56 @@ window.CANGYU_GAMES = {
         "bytes": 80728,
         "size": "78.8 KB",
         "sha256": "f70d6b15874147d1d558ab03dbbed47bb84dbb382fd4f739705480fe4796e3e0"
+      }
+    },
+    {
+      "id": "borrowed-fire",
+      "name": "请向我开炮",
+      "english": "BORROWED FIRE",
+      "number": "04",
+      "category": "defense",
+      "categoryName": "策略与防御",
+      "latest": "0.3",
+      "date": "2026-10-19",
+      "cover": "assets/borrowed-fire.svg",
+      "accent": "mint",
+      "tagline": "接住火力，决定它的去处。",
+      "description": "自己没有枪，就借敌人的炮弹。存住火力、转动分流器、拖箱和引爆，把每一处供电都接通，再从出口撤离。十二个区域，可以停下来观察，也可以走出自己的路线。",
+      "tags": [
+        "12 个区域",
+        "借弹供电",
+        "多种解法"
+      ],
+      "search": "炮弹 举盾 蓄弹 充电 中继 分流 反射 箱子 爆炸 回环 防御 策略 单机",
+      "play": "play/borrowed-fire/index.html",
+      "feedback": "feedback/borrowed-fire.txt",
+      "requirements": "电脑浏览器 · 键盘 / 鼠标",
+      "firstStep": "A / D 移动，空格跳跃；左键折返、右键存弹，B 观察，C 线路总览，E 互动。每处供电接通后才能撤离。",
+      "releases": [
+        {
+          "version": "0.3",
+          "file": "downloads/borrowed-fire/borrowed-fire-v0.3.zip",
+          "notes": [
+            "十二个区域，全部可直接选择；保留所有供电完成后才能撤离。",
+            "加入分流器、中继补弹与线路总览，让火力有更多用法。",
+            "新地图支持不同探索顺序与地下回环；兼容 0.1 / 0.2 存档。"
+          ],
+          "bytes": 98611,
+          "size": "96.3 KB",
+          "sha256": "0fee80343934aa9f4b38bb6a3017d20b9e2c2dd2e042cd773fe4a8ded5aa14dc"
+        }
+      ],
+      "latestRelease": {
+        "version": "0.3",
+        "file": "downloads/borrowed-fire/borrowed-fire-v0.3.zip",
+        "notes": [
+          "十二个区域，全部可直接选择；保留所有供电完成后才能撤离。",
+          "加入分流器、中继补弹与线路总览，让火力有更多用法。",
+          "新地图支持不同探索顺序与地下回环；兼容 0.1 / 0.2 存档。"
+        ],
+        "bytes": 98611,
+        "size": "96.3 KB",
+        "sha256": "0fee80343934aa9f4b38bb6a3017d20b9e2c2dd2e042cd773fe4a8ded5aa14dc"
       }
     }
   ]

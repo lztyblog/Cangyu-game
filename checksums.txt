@@ -1,0 +1,7 @@
+8c389ac9823d5c9cef779ef0ec48f0f6b0e7750d3abc242b027d786700b2c166  downloads/borrow-a-bump/borrow-a-bump-v0.6.1.zip
+2d3a0dbd986463fe13ea462fbd4feda960e32a51f0fbae1b2042a8b587a93d79  downloads/borrow-a-bump/borrow-a-bump-v0.6.zip
+702d8ffd663117ed6803ef1af1991438c339fbdf5af43a862a309c60f3d4e852  downloads/give-yourself-a-path/give-yourself-a-path-v0.5.1.zip
+b7ef01107f1a05a37ddaf768ff36b3625b65b393c8fa681276450555d98d6a10  downloads/give-yourself-a-path/give-yourself-a-path-v0.5-strategy20.zip
+f70d6b15874147d1d558ab03dbbed47bb84dbb382fd4f739705480fe4796e3e0  downloads/ghost-signal/ghost-signal-v0.3.1.zip
+f95285d1a456694414b6675e19b69d66cc1e75e3317375ec0af9338b60f81908  downloads/ghost-signal/ghost-signal-v0.3.zip
+0fee80343934aa9f4b38bb6a3017d20b9e2c2dd2e042cd773fe4a8ded5aa14dc  downloads/borrowed-fire/borrowed-fire-v0.3.zip
