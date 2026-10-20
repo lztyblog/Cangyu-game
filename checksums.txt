@@ -5,3 +5,4 @@ b7ef01107f1a05a37ddaf768ff36b3625b65b393c8fa681276450555d98d6a10  downloads/give
 f70d6b15874147d1d558ab03dbbed47bb84dbb382fd4f739705480fe4796e3e0  downloads/ghost-signal/ghost-signal-v0.3.1.zip
 f95285d1a456694414b6675e19b69d66cc1e75e3317375ec0af9338b60f81908  downloads/ghost-signal/ghost-signal-v0.3.zip
 0fee80343934aa9f4b38bb6a3017d20b9e2c2dd2e042cd773fe4a8ded5aa14dc  downloads/borrowed-fire/borrowed-fire-v0.3.zip
+8627e2ae9022470c61664cb573222151011cf8bad31738b4e78695a4a117888a  downloads/echo-break/echo-break-v0.5.zip

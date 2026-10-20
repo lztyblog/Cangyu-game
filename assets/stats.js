@@ -1,6 +1,6 @@
 (()=>{'use strict';
 const cfg=window.CANGYU_STATS;if(!cfg)return;
-const games=['borrow-a-bump','give-yourself-a-path','ghost-signal','borrowed-fire'],key='cangyu-stats-v1:',online=location.origin===cfg.siteOrigin&&location.pathname.startsWith(cfg.sitePath),memory=new Map();
+const games=['borrow-a-bump','give-yourself-a-path','ghost-signal','borrowed-fire','echo-break'],key='cangyu-stats-v1:',online=location.origin===cfg.siteOrigin&&location.pathname.startsWith(cfg.sitePath),memory=new Map();
 function read(k,fallback){try{const s=localStorage.getItem(key+k);return s?JSON.parse(s):fallback;}catch{return memory.has(k)?memory.get(k):fallback;}}
 function write(k,v){memory.set(k,v);try{localStorage.setItem(key+k,JSON.stringify(v));}catch{}}
 function uuid(){return globalThis.crypto?.randomUUID?.()||'anon_'+Date.now().toString(36)+'_'+Math.random().toString(36).slice(2)+'_'+Math.random().toString(36).slice(2);}
@@ -21,7 +21,7 @@ async function flush(){syncQueue();if(!online||sending||!queue.length)return;sen
 function record(kind,game,id=uuid()){if(!online||!(kind==='visit'?game==='site':games.includes(game)))return;syncQueue();if(!queue.some(e=>e.id===id)){queue.push({id,kind,game,visitor});queue=queue.slice(-200);write('pending',queue);}flush();}
 function session(){if(!online)return;const now=Date.now();let s=read('session',null);if(!s||typeof s.id!=='string'||!Number.isFinite(s.last)||now-s.last>1800000)s={id:'visit_'+visitor.slice(0,48)+'_'+Math.floor(now/1800000),last:now};s.last=now;write('session',s);record('visit','site',s.id);}
 const played=new Set();function play(game){if(played.has(game)||!games.includes(game))return;played.add(game);session();record('play',game);}
-function download(e){if(!e.isTrusted||e.defaultPrevented||!((e.type==='click'&&e.button===0)||(e.type==='auxclick'&&e.button===1)))return;const a=e.target.closest?.('a[download]');if(!a)return;const href=a.getAttribute('href')||'',m=href.match(/(?:^|\/)downloads\/(borrow-a-bump|give-yourself-a-path|ghost-signal|borrowed-fire)\/[^?#]+\.zip(?:[?#]|$)/);if(!m)return;session();record('download',m[1]);}
+function download(e){if(!e.isTrusted||e.defaultPrevented||!((e.type==='click'&&e.button===0)||(e.type==='auxclick'&&e.button===1)))return;const a=e.target.closest?.('a[download]');if(!a)return;const href=a.getAttribute('href')||'',m=href.match(/(?:^|\/)downloads\/(borrow-a-bump|give-yourself-a-path|ghost-signal|borrowed-fire|echo-break)\/[^?#]+\.zip(?:[?#]|$)/);if(!m)return;session();record('download',m[1]);}
 document.addEventListener('click',download);document.addEventListener('auxclick',download);
 let lastActivity=0;function activity(){if(Date.now()-lastActivity>60000){lastActivity=Date.now();session();}}
 document.addEventListener('pointerdown',e=>{if(e.isTrusted)activity();},{passive:true});document.addEventListener('keydown',e=>{if(e.isTrusted)activity();});

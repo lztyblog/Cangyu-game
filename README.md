@@ -1,1 +1,6 @@
-# Cangyu-game
+# 沧屿游戏屋
+
+五款独立小游戏，支持在线试玩和离线下载。
+
+新增《借招》v0.5：连招、精准拆招、六关挑战、训练场与通关后的自由战斗。
+网站入口：https://lztyblog.github.io/Cangyu-game/

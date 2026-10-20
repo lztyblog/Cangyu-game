@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b101b"><title>借招 · ECHO BREAK</title><link rel="stylesheet" href="style.css?v=0.5"><script src="engine.js?v=0.5" defer></script><script src="journey.js?v=0.5" defer></script><script src="game.js?v=0.5" defer></script></head>
+<body>
+<div class="shell">
+ <header><a class="brand" href="./index.html"><span class="logo">借</span><span>借招 <small>ECHO / BREAK</small></span></a><div class="topnote"><i></i> 教学 · 六关 · 自由战斗 · v0.5</div><div class="topactions"><button id="helpBtn">连招手册 <kbd>H</kbd></button><button id="soundBtn" aria-label="切换音效">声音 开</button><button id="pauseBtn">暂停 <kbd>Esc</kbd></button><button id="fullBtn" aria-label="全屏">⛶</button></div></header>
+ <main>
+  <div class="arena" id="arena">
+   <canvas id="game" width="1280" height="720" aria-label="借招，键盘控制的单人格斗游戏"></canvas>
+   <div id="hud" class="hud hidden">
+    <div class="healthrow"><div class="fighterhud"><div class="names"><span>你 <em>回响者</em></span><b id="php">180 / 180</b></div><div class="healthtrack"><div id="phealth"></div></div><div class="guardtrack"><div id="pguard"></div></div></div><div class="bout"><small id="modeLabel">巡回擂台</small><strong id="roundLabel">01 / 03</strong><span>无倒计时</span></div><div class="fighterhud enemy"><div class="names"><b id="ehp">180 / 180</b><span id="ename">弦 · 长波</span></div><div class="healthtrack"><div id="ehealth"></div></div><div class="guardtrack"><div id="eguard"></div></div></div></div>
+    <div class="bottomhud"><div class="syncbox"><div class="names"><span>大招 <b id="syncnum">0%</b></span><small id="burstLabel">精准拆招蓄能 · 通常三次蓄满</small></div><div class="synctrack"><div id="syncbar"></div></div></div><div class="echobox"><span class="keycap">J K</span><div><small id="echoLabel">轻重击分支 · H 查看全部</small><strong id="echoName">J K J 突进 / J K K 波刃</strong></div><span id="echoReady">自由连段</span></div></div>
+   </div>
+   <div id="screen" class="screen"></div>
+   <div id="toast" role="status"></div>
+   <div id="tutorial" class="tutorial hidden"></div>
+   <div id="lessonpanel" class="lessonpanel hidden"><small id="lessonChapter"></small><h3 id="lessonTitle"></h3><div id="lessonKeys"></div><p id="lessonHint"></p><div class="lessonstatus"><b id="lessonCount">0 / 2</b><span id="lessonMode"></span></div><div class="lessonbuttons"><button id="lessonReplay">G 演示 / 练习</button><button id="lessonReset">R 复位</button><button id="lessonNext" class="hidden">下一课</button><button id="lessonExit">保存退出</button></div></div>
+   <div id="combo" class="combo hidden"></div>
+   <div id="rivalread" class="rivalread hidden"><small id="phaseBadge">第一阶段</small><span id="rivalState">观察距离</span></div>
+   <div id="trainingtools" class="trainingtools hidden"><button id="dummyBtn">T · 木桩 → 进攻</button><button id="phaseBtn">Y · 练习第二阶段</button><button id="drillBtn">F · 固定招式</button><button id="returnFight" class="hidden">返回原关卡</button></div>
+   <div id="touch" class="touch hidden"><div><button data-hold="left">◀</button><button data-hold="right">▶</button><button data-hold="down">↓</button></div><div><button data-action="jump">跳</button><button data-action="dash">闪</button><button data-hold="guard">防</button><button data-action="light">J</button><button data-action="heavy">K</button><button data-action="burst">大</button></div></div>
+  </div>
+  <footer><span><i></i> 招式接在拳脚里，大招攒在拆招里。</span><div><kbd>A D</kbd> 移动 <kbd>空格</kbd> 跳跃 <kbd>J K</kbd> 连招 <kbd>I</kbd> 拆招 <kbd>L</kbd> 闪步 <kbd>U</kbd> 大招 <kbd>H</kbd> 招式表</div></footer>
+ </main>
+ <div class="under"><span>CANGYU / PLAYROOM</span><span>掌握节奏，然后打破它。</span><span id="record">本机纪录 · 尚未通关</span></div>
+</div>
+<input id="importInput" type="file" accept=".json,application/json" hidden>
+</body></html>

@@ -2,7 +2,7 @@ window.CANGYU_GAMES = {
   "site": {
     "name": "沧屿游戏屋",
     "english": "CANGYU PLAYROOM",
-    "updated": "2026-10-19",
+    "updated": "2026-10-20",
     "description": "一些小小的单机游戏，一点自由发挥的空间。下载即玩，也欢迎先在浏览器里试一试。"
   },
   "games": [
@@ -236,6 +236,56 @@ window.CANGYU_GAMES = {
         "bytes": 98611,
         "size": "96.3 KB",
         "sha256": "0fee80343934aa9f4b38bb6a3017d20b9e2c2dd2e042cd773fe4a8ded5aa14dc"
+      }
+    },
+    {
+      "id": "echo-break",
+      "name": "借招",
+      "english": "ECHO BREAK",
+      "number": "05",
+      "category": "fighting",
+      "categoryName": "连招与拆招",
+      "latest": "0.5",
+      "date": "2026-10-20",
+      "cover": "assets/echo-break.svg",
+      "accent": "lavender",
+      "tagline": "拆下他的招，把节奏打回来。",
+      "description": "轻重击组合就是技能。先学会十三项招式，再挑战六关逐渐变强的擂主；精准拆招积攒大招，借来对手的特性反击，通关后解锁自由战斗。",
+      "tags": [
+        "连招分支",
+        "精准拆招",
+        "六关挑战"
+      ],
+      "search": "格斗 对战 连招 拆招 技能 大招 擂台 教学 训练场 自由战斗 J K",
+      "play": "play/echo-break/index.html",
+      "feedback": "feedback/echo-break.txt",
+      "requirements": "电脑浏览器 · 键盘操作",
+      "firstStep": "J 轻击、K 重击；按 J K J 突进、J K K 波刃。I 防御 / 精准拆招，U 满能量大招。初次从教学开始，每项成功两次。",
+      "releases": [
+        {
+          "version": "0.5",
+          "file": "downloads/echo-break/echo-break-v0.5.zip",
+          "notes": [
+            "十三项教学各完成两次，依次挑战六关，通关解锁自由战斗。",
+            "普攻三连 13 伤害，完整技能连招 35–55；敌方生命与攻击逐关成长。",
+            "加入终结技收招后的防守反击与重复连招应对；兼容原有课程和通关进度。"
+          ],
+          "bytes": 44199,
+          "size": "43.2 KB",
+          "sha256": "8627e2ae9022470c61664cb573222151011cf8bad31738b4e78695a4a117888a"
+        }
+      ],
+      "latestRelease": {
+        "version": "0.5",
+        "file": "downloads/echo-break/echo-break-v0.5.zip",
+        "notes": [
+          "十三项教学各完成两次，依次挑战六关，通关解锁自由战斗。",
+          "普攻三连 13 伤害，完整技能连招 35–55；敌方生命与攻击逐关成长。",
+          "加入终结技收招后的防守反击与重复连招应对；兼容原有课程和通关进度。"
+        ],
+        "bytes": 44199,
+        "size": "43.2 KB",
+        "sha256": "8627e2ae9022470c61664cb573222151011cf8bad31738b4e78695a4a117888a"
       }
     }
   ]
