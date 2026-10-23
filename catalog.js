@@ -2,7 +2,7 @@ window.CANGYU_GAMES = {
   "site": {
     "name": "沧屿游戏屋",
     "english": "CANGYU PLAYROOM",
-    "updated": "2026-10-20",
+    "updated": "2026-10-23",
     "description": "一些小小的单机游戏，一点自由发挥的空间。下载即玩，也欢迎先在浏览器里试一试。"
   },
   "games": [
@@ -286,6 +286,56 @@ window.CANGYU_GAMES = {
         "bytes": 44199,
         "size": "43.2 KB",
         "sha256": "8627e2ae9022470c61664cb573222151011cf8bad31738b4e78695a4a117888a"
+      }
+    },
+    {
+      "id": "life-on-credit",
+      "name": "命先欠着",
+      "english": "LIFE ON CREDIT",
+      "number": "06",
+      "category": "action",
+      "categoryName": "进攻与探索",
+      "latest": "0.3",
+      "date": "2026-10-23",
+      "cover": "assets/life-on-credit.svg",
+      "accent": "peach",
+      "tagline": "等会儿，我这条命还没结账呢。",
+      "description": "挨打先记账，五秒内打回来。挑空追击、精准闪避、反弹子弹，赶在欠血到期前击倒敌人；也可以主动结账，用生命换一次解围。",
+      "tags": [
+        "五关挑战",
+        "空中连招",
+        "追击抵账"
+      ],
+      "search": "命先欠着 欠血 欠条 动作 二段跳 弹反",
+      "play": "play/life-on-credit/index.html",
+      "feedback": "feedback/life-on-credit.txt",
+      "requirements": "电脑浏览器 · 键盘操作",
+      "firstStep": "A / D 移动，空格二段跳，J 轻击、K 重击，Shift 闪避；Q 先扣欠血再反击。建议先去训练场。",
+      "releases": [
+        {
+          "version": "0.3",
+          "file": "downloads/life-on-credit/life-on-credit-v0.3.zip",
+          "notes": [
+            "受伤先记账，击倒抵账，Q 主动结账反击；五关挑战与训练场。",
+            "新增二段跳、空中冲刺、挑空追击与下劈收尾。",
+            "精准闪避、贴欠条、弹反、红账强化与场景互动。"
+          ],
+          "bytes": 32980,
+          "size": "32.2 KB",
+          "sha256": "ffab0740b6386f405a3d60960deb319aaee4cd415101318665dfbc8f5473adce"
+        }
+      ],
+      "latestRelease": {
+        "version": "0.3",
+        "file": "downloads/life-on-credit/life-on-credit-v0.3.zip",
+        "notes": [
+          "受伤先记账，击倒抵账，Q 主动结账反击；五关挑战与训练场。",
+          "新增二段跳、空中冲刺、挑空追击与下劈收尾。",
+          "精准闪避、贴欠条、弹反、红账强化与场景互动。"
+        ],
+        "bytes": 32980,
+        "size": "32.2 KB",
+        "sha256": "ffab0740b6386f405a3d60960deb319aaee4cd415101318665dfbc8f5473adce"
       }
     }
   ]
